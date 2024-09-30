@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+
+<head> <title>IFrames</title>
+
+
+<h1>Iframes</h1>
+
+</head>
+
+<style>
+
+#main
+{
+width:80%;
+height:500px;  
+margin:auto;
+margin:top:-230px;
+margin-left:200px;
+}
+
+#menu ol{
+list-style:none;
+}
+
+#menu ol li
+{
+background:tint;
+width:10%;
+padding:10px;
+text-align:centre;
+box-shadow:10px 10px 10px black;
+border-bottom:2px solid black;
+}
+
+#menu ol li:hover
+{
+cursor:pointer;
+background:gray;
+}
+
+</style>
+
+
+<body>
+
+<div id="menu">
+<ol>
+<li><a href="Reigistrationform.html" target="myframe">Login</a></li>
+<li><a href="index.html" target="myframe">Profile</a></li>
+<li><a href="bookmark.html" target="myframe">Bookmark</a></li>
+<li><a href="photogal.html" target="myframe">Photoshow</a></li>
+<li><a href="table.html" target="myframe">Rank</a></li>
+
+</ol>
+</div>
+
+
+<div id="main">
+<iframe name="myframe" src="photogal.html" width="100%" height="500"
+frameborder="0" scrolling="yes">
+Your browser Does not support i frame or uptade your browser
+</iframe>
+</div>
+
+</body> 
